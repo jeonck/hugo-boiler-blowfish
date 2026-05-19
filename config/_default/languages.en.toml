@@ -1,0 +1,19 @@
+locale = "en"
+label = "English"
+weight = 1
+title = "Jeonck's Blog"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Thoughts on technology, development, and life."
+
+[params.author]
+  name = "Jeonck"
+  headline = "Developer & Writer"
+  bio = "Writing about technology, software development, and things I find interesting."
+  links = [
+    { github = "https://github.com/jeonck" },
+  ]
