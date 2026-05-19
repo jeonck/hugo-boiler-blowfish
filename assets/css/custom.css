@@ -1,0 +1,62 @@
+/* Google Fonts — Merriweather for body, Inter for UI */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── Typography ─────────────────────────────────────── */
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Article body — switch to Merriweather for comfortable reading */
+.prose,
+article .prose {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  font-size: 1.0625rem;   /* 17px */
+  line-height: 1.9;
+  font-weight: 300;
+}
+
+/* Headings use Inter for contrast against body text */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+/* Paragraph breathing room */
+.prose p {
+  margin-bottom: 1.6em;
+}
+
+/* Code — keep monospace but tighten it a bit */
+.prose code,
+.prose pre {
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+/* ── Readable max-width for article content ─────────── */
+.prose {
+  max-width: 72ch;
+}
+
+/* ── Subtle link style ──────────────────────────────── */
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+/* ── Blockquote improvement ─────────────────────────── */
+.prose blockquote {
+  font-style: italic;
+  border-left-width: 3px;
+  padding-left: 1.25em;
+  opacity: 0.85;
+}
